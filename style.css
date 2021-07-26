@@ -6,12 +6,20 @@ font-family: 'Roboto', sans-serif;
   background-color:#d6d6c7;
 }
 #sidenav {
+  z-index:1;
   width: 250px;
-  position: fixed;
+  float:left;
+  background-color:#ffffff;
 
 }
 
+#sidenav .w3-container .logo {
+	margin-left:15%;
+	padding: 32px;
+}
+
 #menucontent a {
+  text-decoration:none;
   margin-left: 50px;
   padding: 5px 24px; 
   text-align: left;
@@ -23,6 +31,7 @@ font-family: 'Roboto', sans-serif;
 
 #menucontent a:hover {
 transition: 0.9s;
+background-color: #D7D7D7;
 
 }
 
@@ -42,19 +51,20 @@ transition: 0.9s;
   transition: 0.9s;
 }
 
-.bg{
+/*.bg{
   background-color: #000000;
   width:1270px;
   position: relative;
   
-}
+}*/
 
 .bg img{
 
-  max-width: 1600px;
-  width: 1270px;
+  max-width: 1920px;
+  width: 100%;
   height: auto;
   object-fit: cover;
+  position:static;
 }
 
 
@@ -147,7 +157,7 @@ display: flex;
 /*about page*/
 #about {
   background-color: #ffffff;
-  width:1270px;
+  width:100%;
 }
 
 .intro{
@@ -160,12 +170,12 @@ hr.class-1 {
   width: 50%;
   margin-left:auto;
   margin-right: auto;
- margin-top: -45px;
+ margin-top: 5px;
 } 
 
 hr.class-2 { 
   border-top: 3px dotted #3f3f3f; 
-  margin-top: -45px;
+ 
 } 
 /*my name*/
 .nametext p{
@@ -173,7 +183,7 @@ hr.class-2 {
   margin-right: 200px;
   color:#ffffff;
   text-align: right;
-  line-height: 0.4;
+  line-height: 1;
 }
 
 .quote {
@@ -181,7 +191,7 @@ hr.class-2 {
   padding: 16px;
   font-size: 25px;
   line-height: 1;
-  white-space: nowrap;
+  white-space: wrap;
 }
 
 
@@ -189,11 +199,11 @@ hr.class-2 {
 /*main page*/
 #overview{
   background-color: #ffffff;
-  width: 1270px;
+  width: 100%;
 }
 
 #photogallery1{
-  width: 1270px;
+  width: 100%;
 }
 
 .gallery {
