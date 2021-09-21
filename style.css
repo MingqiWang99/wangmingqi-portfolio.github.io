@@ -1,6 +1,12 @@
-body{
-font-family: 'Roboto', sans-serif;
+body,
+html {
+  font-family: 'Roboto', sans-serif;
+
 }
+
+
+
+/*previous codes are fore slideshow*/
 
 .w3-content{
   background-color:#d6d6c7;
@@ -23,7 +29,7 @@ font-family: 'Roboto', sans-serif;
   margin-left: 50px;
   padding: 5px 24px; 
   text-align: left;
-  font-size: 23px;
+  font-size: 24px;
   color: #3f3f3f;
   display: block;
   overflow-y: none;
@@ -326,22 +332,37 @@ hr.class-2 {
 
 #slideshow {
   overflow: hidden;
-  height: 550px;
-  width: 800px;
+  height: 100%;
+  width: 980px;
   margin: 0 auto;
 }
 
 .slide-wrapper {
-  width: 4800px;
-  -webkit-animation: slide 10s ease infinite;
+  width: 7840px;
+  -webkit-animation: slide 20s ease infinite;
 }
 
 .slide {
   float: left;
-  height: 550px;
-  width: 800px;
+  height: 100%;
+  width: 980px;
 }
+
+
 @-webkit-keyframes slide {
+  15% {margin-left: 0px;}
+  23% {margin-left: -980px;}
+  31% {margin-left: -980px;}
+  39% {margin-left: -1960px;}
+  47% {margin-left: -2940px;}
+  55% {margin-left: -3920px;}
+  63% {margin-left: -4900px;}
+  71% {margin-left: -5880px;}
+  79% {margin-left: -6860px;}
+  87% {margin-left: -7840px;}
+  95% {margin-left: -7840px;}
+
+/*@-webkit-keyframes slide {
   15% {margin-left: 0px;}
   23% {margin-left: -800px;}
   31% {margin-left: -800px;}
@@ -354,6 +375,7 @@ hr.class-2 {
   87% {margin-left: -4000px;}
   95% {margin-left: -4000px;}
 }
+*/
 
 video {
   width: 600px;
