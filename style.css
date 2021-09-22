@@ -186,7 +186,7 @@ hr.class-2 {
 /*my name*/
 .nametext p{
   font-size: 80px;
-  margin-right: 200px;
+  margin-right: 100px;
   color:#ffffff;
   text-align: right;
   line-height: 1;
@@ -194,10 +194,11 @@ hr.class-2 {
 
 .quote {
   color:#ffffff;
+  margin-right:100px;
   padding: 16px;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1;
-  white-space: wrap;
+  white-space: nowrap;
 }
 
 
