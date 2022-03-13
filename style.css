@@ -185,21 +185,21 @@ hr.class-2 {
 } 
 /*my name*/
 .nametext p{
-  font-size: 80px;
-  margin-right: 100px;
+  font-size: 50px;
+  font-kerning:none;
   color:#ffffff;
-  text-align: right;
-  line-height: 1;
+  text-align: center;
+  line-height: 5%;
 }
 
-.quote {
+/*.quote {
   color:#ffffff;
   margin-right:100px;
   padding: 16px;
   font-size: 20px;
   line-height: 1;
   white-space: nowrap;
-}
+}*/
 
 
 
